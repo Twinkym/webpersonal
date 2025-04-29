@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "",
+    "python.linting.enabled": true,
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintEnabled": false,
+    "python.languageServer": "Pylance",
+    "python.linting.pycodestyleEnabled": true,
+    "python.analysis.useImportHeuristic": true,
+    "python.linting.pycodestyleargs": ["--ignore-E501,E226,E116"],
+    "python.formatting.autopep8args": ["--max-line-length-200"],
+    "python.linting.pylintargs": ["--load-plugins=pylint_django","--disable=django-not-configured,missing-module-docstring.missing-class-docstring"]
+}
